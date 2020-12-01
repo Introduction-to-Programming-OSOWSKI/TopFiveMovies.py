@@ -7,10 +7,11 @@ import datetime;
 
 year = 2020
 month = 12
-day = 1
+day = 17
 
 def test_code():
-    assert 0 > 1, "error"
+    assert main.topFiveMovies("a", "b", "c", "d", "e") == "a b c d e", "Failed using arguments 'a', 'b', 'c', 'd', 'e'"
+    assert main.topFiveMovies("Shrek", "Shrek 2", "Shrek 3", "Shrek 4", "Shrek 5") == "Shrek Shrek 2 Shrek 3 Shrek 4 Shrek 5", "Failed using arguments 'Shrek', 'Shrek 2', 'Shrek 3', 'Shrek 4', 'Shrek 5'"
 
 def test_late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"

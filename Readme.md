@@ -1,16 +1,22 @@
-# **Assignment Title**  
+# **Top Five Movies**  
 
 ## **Assignment Description**  
-
+Create a function called topFiveMovies() that a list of the given variables a, b, c, d, and e separated by a space.
 
 ## **Examples**  
->
+>topFiveMovies("Shrek", "Shrek 2", "Shrek 3", "Shrek 4", "Shrek 5")  
+Shrek Shrek 2 Shrek 3 Shrek 4 Shrek 5
+
+>topFiveMovies("Spider Man", "Iron Man", "Doctor Strange", "The Hulk", "Captain America")  
+Spider Man Iron Man Doctor Strange The Hulk Captain America
 
 ## **Limitations**  
 
 ## **Hints**  
-
+You only need one return statement  
+Don't forget to add spaces between the movies using " "
 ## **Concepts**  
+functions, arguments
 
 ---
 
